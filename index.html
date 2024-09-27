@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Exploração do Castelo Abandonado</title>
+</head>
+<body>
+    <main>
+        <section class="passo ativo" id="passo-0">
+            <p>Há muito tempo atrás em um reino vivia um jovem, conhecido por ser uma pessoa com quem se podia contar para qualquer coisa, sempre disposto a ajudar. Um dia, pediram-lhe para entregar algumas coisas no castelo. O que você fará?</p>
+            <button class="btn-proximo" data-proximo="1">Eu aceito o trabalho</button>
+            <button class="btn-proximo" data-proximo="2">Eu não aceito o trabalho</button>
+        </section>
+        
+        <section class="passo" id="passo-1">
+            <p>Eu aceito o trabalho. Quando chego, mandam-me passar pela ferraria do castelo, onde deixarei as coisas. Ao lado do ferreiro, eu pergunto:</p>
+            <p>“Será que você me deixaria ser seu aprendiz?”</p>
+            <button class="btn-proximo" data-proximo="3">Concordo em ensiná-lo</button>
+            <button class="btn-proximo" data-proximo="4">Não concordo em ensiná-lo</button>
+        </section>
+        
+        <section class="passo" id="passo-2">
+            <p>Eu não aceito o trabalho. Fiquei fazendo pequenos trabalhos em minha aldeia, mas as despesas não me permitiam viver. Em meu desespero, pensei em começar a roubar.</p>
+            <button class="btn-proximo" data-proximo="5">Comece a roubar</button>
+            <button class="btn-proximo" data-proximo="6">É melhor não roubar</button>
+        </section>
+        
+        <section class="passo" id="passo-3">
+            <p>Concordo em ensiná-lo. No dia seguinte, o jovem chega na ferraria e seu treinamento começa. O ferreiro, impressionado, nomeia-o ferreiro em poucos meses.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar a história</button>
+        </section>
+
+        <section class="passo" id="passo-4">
+            <p>Não concordo em ensiná-lo. O ferreiro envelheceria sem um sucessor confiável.</p>
+        </section>
+
+        <section class="passo" id="passo-5">
+            <p>Quando comecei a roubar, perdi a confiança do povo. Eventualmente, fui pego pelos guardas, e ninguém mais queria me ajudar. Fui condenado à morte.</p>
+        </section>
+
+        <section class="passo" id="passo-6">
+            <p>Quando me livrei da ideia de roubar, procurei e consegui um emprego mais permanente, vivendo com mais tranquilidade.</p>
+            <button class="btn-proximo" data-proximo="8">Pergunte no castelo</button>
+            <button class="btn-proximo" data-proximo="9">Pergunte na cidade</button>
+        </section>
+
+        <section class="passo" id="passo-7">
+            <p>Com o passar do tempo, o jovem já não tinha mais nada para ensinar ao ferreiro, mas a vida e a experiência o ajudaram a superar o resto.</p>
+            <button class="btn-proximo" data-proximo="10">Final da história</button>
+        </section>
+
+        <section class="passo" id="passo-8">
+            <p>O jovem conseguiu um emprego como ajudante de ferreiro e se dispôs a aprender tudo o que o ferreiro mostrasse.</p>
+            <button class="btn-proximo" data-proximo="7">Com o passar do tempo</button>
+        </section>
+
+        <section class="passo" id="passo-9">
+            <p>O jovem conseguiu um emprego como auxiliar numa padaria. Embora não fosse o trabalho que esperava, conseguiu seguir em frente.</p>
+            <button class="btn-proximo" data-proximo="5">Condenação</button>
+        </section>
+
+        <section class="passo" id="passo-10">
+            <p>Ao falar com o rei, ele se ofereceu como sucessor do ferreiro. O rei decidiu atender ao pedido, e assim o jovem se tornou o ferreiro oficial do reino. Os cavaleiros ficaram maravilhados com as armas que ele fez, e o velho ferreiro ficou comovido com a situação.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
